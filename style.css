@@ -1,0 +1,94 @@
+body {
+  font-family: Noto Serif;
+  background-color: #dc7b63;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1 {
+  background-color: #375561;
+  padding: 15px;
+  color:rgb(235, 235, 235);
+  font-size: 16.5px;
+  text-transform: uppercase;
+  border-radius: 3px
+}
+
+h2 {
+  color:rgb(235, 235, 235);
+  font-size: 15px;
+  padding: 5px;
+  letter-spacing: 2px;
+  background-color: #77ada7;
+  text-transform: lowercase;
+  border-radius: 3px
+}
+
+a {
+  background-color: #E9C46A;
+  color: #264653;
+  text-decoration: none;
+  font-size: 16;
+  padding: 12px;
+  border-radius: 4px;
+  box-shadow: 0 0 50 rgb(235, 235, 235)
+}
+
+a:hover {
+  background-color: #375561;
+  color: rgb(235, 235, 235)
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background:rgb(235, 235, 235);
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px;
+  padding-top: 0px;
+  /* border-left: .75px solid #264653;
+  border-right: .75px solid #264653; */
+  border-radius: 4px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1)
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 125px
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
